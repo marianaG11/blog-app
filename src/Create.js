@@ -7,6 +7,12 @@ const Create = () => {
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('Mariana');
     
+    const handleSubmit = (e) => {
+        e.preventDefault(); //prevents page from refreshing
+        const blog = {title, body, author};
+        console.log(blog)
+    }
+
     //the value being typed in
     //e.target is the input element; can access the value with e.target.value
 
@@ -15,7 +21,7 @@ const Create = () => {
         <Navbar />
         <div className="create">
             <h2>Add a new blog</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label>Blog title:</label>
                 <input
                     type="text"
