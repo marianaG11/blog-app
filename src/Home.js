@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"; //to create a reactive value
+
 import BlogList from "./BlogList";
 import useFetch from "./useFetch";
 import Navbar from "./Navbar";
