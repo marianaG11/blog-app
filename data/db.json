@@ -1,16 +1,23 @@
 {
-    "blogs": [
-        {
-            "title": "my first blog", 
-            "body": "test",
-            "author": "Mariana",
-            "id": 1
-        }, 
-        {
-            "title": "my second blog", 
-            "body": "test",
-            "author": "Mariana",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "my first blog",
+      "body": "test",
+      "author": "Mariana",
+      "id": 1
+    },
+    {
+      "title": "my second blog",
+      "body": "test",
+      "author": "Mariana",
+      "id": 2
+    },
+    {
+      "title": "test1",
+      "body": "this is test1 blah ",
+      "author": "Mariana",
+      "id": 3
+    }
+    
+  ]
 }
